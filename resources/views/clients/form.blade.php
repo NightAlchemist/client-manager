@@ -27,11 +27,6 @@
 <input type="email" class="form-control" name="Email" value="{{ isset($client->email)?$client->email:old('Email') }}" id="Email" >
 </div>
 
-<!-- <div class="form-group">
-<label for="Tipo_Identificacion">Tipo de Identificación</label>
-<input type="text" class="form-control" name="Tipo_Identificacion" value="{{ isset($client->tipo_identificacion)?$client->tipo_identificacion:old('Tipo_Identificacion') }}" id="Tipo_Identificacion" >
-</div> -->
-
 <div class="form-group">
     <label for="Tipo_Identificacion">Tipo de Identificación</label>
     <select class="form-control" name="Tipo_Identificacion" id="Tipo_Identificacion">
