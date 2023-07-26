@@ -41,25 +41,25 @@
                                         </span>
                                     @enderror
                                 </div>
-                            </div>
+                        </div>
 
-                            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-                            <script>
-                                $(document).ready(function() {
-                                    $('#show-password-btn').click(function() {
-                                        var passwordField = $('#password');
-                                        var passwordFieldType = passwordField.attr('type');
+                        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                        <script>
+                            $(document).ready(function() {
+                                $('#show-password-btn').click(function() {
+                                    var passwordField = $('#password');
+                                    var passwordFieldType = passwordField.attr('type');
 
-                                        if (passwordFieldType === 'password') {
-                                            passwordField.attr('type', 'text');
-                                            $(this).text('Hide');
-                                        } else {
-                                            passwordField.attr('type', 'password');
-                                            $(this).text('Show');
-                                        }
-                                    });
+                                    if (passwordFieldType === 'password') {
+                                        passwordField.attr('type', 'text');
+                                        $(this).text('Hide');
+                                    } else {
+                                        passwordField.attr('type', 'password');
+                                        $(this).text('Show');
+                                    }
                                 });
-                            </script>
+                            });
+                        </script>
 
                         <div class="row mb-3">
                             <div class="col-md-6 offset-md-4">
